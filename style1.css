@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Jersey 15", serif;
 }
 nav{
     background-color: rgba(213, 213, 213, 0.344);
@@ -40,7 +41,6 @@ div{
     align-items: center;
 }
 p{
-    font-family: SF Pro Display;
     font-weight: bold;
     color: rgb(40, 40, 40);
     font-size: 20px;
@@ -50,7 +50,6 @@ p{
     width: 300px;
     height: 5px;
     margin: 3px;
-    font-family: SF Pro Display;
     border-radius: 20px;
     border: rgba(255, 255, 255, 0);
     padding: 20px;
@@ -68,7 +67,6 @@ p{
     width: 300px;
     height: 5px;
     margin: 3px;
-    font-family: SF Pro Display;
     border-radius: 20px;
     border: rgba(255, 255, 255, 0);
     padding: 20px;
@@ -88,7 +86,6 @@ p{
     font-family: "Jersey 15", serif;
 }
 .box a{
-    font-family: SF Pro Display;
     color: rgb(40, 40, 40);
     text-align: left;
     font-size: 14px;
@@ -106,7 +103,6 @@ p{
     width: 75px;
     align-items: center;
     height: 30px;
-    font-family: SF Pro Display;
     border-radius: 20px;
     border: white;
     font-family: "Jersey 15", serif;
@@ -143,7 +139,6 @@ p{
         margin-left: -36%;
     }
     p{
-        font-family: "Jersey 15", serif;
         font-weight: bold;
         color: rgb(40, 40, 40);
         font-size: 12px;
@@ -156,7 +151,6 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
@@ -165,13 +159,11 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
     }
     .box{
-        font-family: SF Pro Display;
         color: rgb(40, 40, 40);
     }
 }
@@ -191,7 +183,6 @@ p{
         margin-left: -36%;
     }
     p{
-        font-family: SF Pro Display;
         font-weight: bold;
         color: rgb(40, 40, 40);
         font-size: 16px;
@@ -204,7 +195,6 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
@@ -213,13 +203,11 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
     }
     .box{
-        font-family: SF Pro Display;
         color: rgb(40, 40, 40);
     }
 }
@@ -239,7 +227,6 @@ p{
         margin-left: -36%;
     }
     p{
-        font-family: SF Pro Display;
         font-weight: bold;
         color: rgb(40, 40, 40);
         font-size: 16px;
@@ -252,7 +239,6 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
@@ -261,13 +247,11 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
     }
     .box{
-        font-family: SF Pro Display;
         color: rgb(40, 40, 40);
     }
 }
@@ -287,7 +271,6 @@ p{
         margin-left: -36%;
     }
     p{
-        font-family: SF Pro Display;
         font-weight: bold;
         color: rgb(40, 40, 40);
         font-size: 16px;
@@ -300,7 +283,6 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
@@ -309,13 +291,11 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
     }
     .box{
-        font-family: SF Pro Display;
         color: rgb(40, 40, 40);
     }
 }
@@ -335,7 +315,6 @@ p{
         margin-left: -36%;
     }
     p{
-        font-family: SF Pro Display;
         font-weight: bold;
         color: rgb(40, 40, 40);
         font-size: 16px;
@@ -348,7 +327,6 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
@@ -357,13 +335,11 @@ p{
         width: 265px;
         height: 5px;
         margin: 3px;
-        font-family: SF Pro Display;
         border-radius: 20px;
         border: rgba(255, 255, 255, 0);
         padding: 20px;
     }
     .box{
-        font-family: SF Pro Display;
         color: rgb(40, 40, 40);
     }
 }
