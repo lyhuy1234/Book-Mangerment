@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(219, 181, 255);
+}
+
+nav{
+    padding: 20px;
+    font-family: "Jersey 15", serif;
+}
+
+.body{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 550px;
+    border-radius: 10px;
+}
+
+.bar a{
+    margin: 6px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    padding: 10px;
+}
+.bar a:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.h1{
+    font-size: 40px;
+}
+.count-book{
+    margin-top: 15px;
+    padding: 30px;
+}
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.267);
+    height: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: "Jersey 15", serif;
+}
+.total-count1{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 400px;
+    margin-left: 390px ;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.total-count2{
+    margin-top: 20px;
+    font-size: 65px;
+    border-radius: 100px;
+    background-color: rgba(133, 73, 168, 0.753);
+    width: 73px;
+    margin-left: 162px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10PX;
+    background-color: rgba(138, 78, 173, 0.705);
+    border-radius: 10px;
+    border: rgba(255, 255, 255, 0);
+    font-family: "Jersey 15", serif;
+    font-size: 19px;
+}
+.btn:hover{
+    background-color: rgb(133, 73, 168);
+}
+.footer{
+    margin-top: 30PX;
+}
+@media screen and (max-width: 360px) {
+    .h1{
+        font-size: 40px;
+    }
+    .count-book{
+        margin-top: 15px;
+        padding: 30px;
+    }
+    
+    .container{
+        margin-top: 50px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.267);
+        height: 350px;
+        border-radius: 10px;
+        padding: 30px;
+        font-family: "Jersey 15", serif;
+    }
+    .total-count1{
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.301);
+        width: 120px;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: 10px;
+        margin-left: 23px;
+    }
+    .total-count2{
+        margin-top: 20px;
+        font-size: 65px;
+        border-radius: 100px;
+        background-color: rgba(133, 73, 168, 0.753);
+        width: 73px;
+        margin-left: 24px;
+    }
+    .btn{
+        margin-top: 20px;
+        padding: 10PX;
+        background-color: rgba(138, 78, 173, 0.705);
+        border-radius: 10px;
+        border: rgba(255, 255, 255, 0);
+        font-family: "Jersey 15", serif;
+        font-size: 19px;
+    }
+    .btn:hover{
+        background-color: rgb(133, 73, 168);
+    }
+    .footer{
+        margin-top: 30PX;
+    }
+}
+@media screen and (max-width: 390px) {
+    .h1{
+        font-size: 40px;
+    }
+    .count-book{
+        margin-top: 15px;
+        padding: 30px;
+    }
+    
+    .container{
+        margin-top: 50px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.267);
+        height: 350px;
+        border-radius: 10px;
+        padding: 30px;
+        font-family: "Jersey 15", serif;
+    }
+    .total-count1{
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.301);
+        width: 120px;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: 10px;
+        margin-left: 50px;
+    }
+    .total-count2{
+        margin-top: 20px;
+        font-size: 65px;
+        border-radius: 100px;
+        background-color: rgba(133, 73, 168, 0.753);
+        width: 73px;
+        margin-left: 100px;
+    }
+    .btn{
+        margin-top: 20px;
+        padding: 10PX;
+        background-color: rgba(138, 78, 173, 0.705);
+        border-radius: 10px;
+        border: rgba(255, 255, 255, 0);
+        font-family: "Jersey 15", serif;
+        font-size: 19px;
+    }
+    .btn:hover{
+        background-color: rgb(133, 73, 168);
+    }
+    .footer{
+        margin-top: 30PX;
+    }
+}
+@media screen and (max-width: 414.4px) {
+    .h1{
+        font-size: 40px;
+    }
+    .count-book{
+        margin-top: 15px;
+        padding: 30px;
+    }
+    
+    .container{
+        margin-top: 50px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.267);
+        height: 350px;
+        border-radius: 10px;
+        padding: 30px;
+        font-family: "Jersey 15", serif;
+    }
+    .total-count1{
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.301);
+        width: 120px;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: 10px;
+        margin-left: 35px;
+    }
+    .total-count2{
+        margin-top: 20px;
+        font-size: 65px;
+        border-radius: 100px;
+        background-color: rgba(133, 73, 168, 0.753);
+        width: 73px;
+        margin-left: 24px;
+    }
+    .btn{
+        margin-top: 20px;
+        padding: 10PX;
+        background-color: rgba(138, 78, 173, 0.705);
+        border-radius: 10px;
+        border: rgba(255, 255, 255, 0);
+        font-family: "Jersey 15", serif;
+        font-size: 19px;
+    }
+    .btn:hover{
+        background-color: rgb(133, 73, 168);
+    }
+    .footer{
+        margin-top: 30PX;
+    }
+}
+@media screen and (max-width: 428.4px) {
+    .h1{
+        font-size: 40px;
+    }
+    .count-book{
+        margin-top: 15px;
+        padding: 30px;
+    }
+    
+    .container{
+        margin-top: 50px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.267);
+        height: 350px;
+        border-radius: 10px;
+        padding: 30px;
+        font-family: "Jersey 15", serif;
+    }
+    .total-count1{
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.301);
+        width: 120px;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: 10px;
+        margin-left: 23px;
+    }
+    .total-count2{
+        margin-top: 20px;
+        font-size: 65px;
+        border-radius: 100px;
+        background-color: rgba(133, 73, 168, 0.753);
+        width: 73px;
+        margin-left: 24px;
+    }
+    .btn{
+        margin-top: 20px;
+        padding: 10PX;
+        background-color: rgba(138, 78, 173, 0.705);
+        border-radius: 10px;
+        border: rgba(255, 255, 255, 0);
+        font-family: "Jersey 15", serif;
+        font-size: 19px;
+    }
+    .btn:hover{
+        background-color: rgb(133, 73, 168);
+    }
+    .footer{
+        margin-top: 30PX;
+    }
+}

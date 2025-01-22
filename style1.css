@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/flat-background-design-9.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: rgba(213, 213, 213, 0.344);
+    width: 850px;
+    height: auto;
+    align-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+.img2{
+    width: 300px;
+    margin-left: -50%;
+    margin-top: -1%;
+}
+section{
+    margin-top: -33%;
+    margin-right: -37%;
+    align-content: center;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+div{
+    margin: 7px;
+    align-items: center;
+}
+p{
+    font-family: SF Pro Display;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+    font-size: 20px;
+    font-family: "Jersey 15", serif;
+}
+.user input{
+    width: 300px;
+    height: 5px;
+    margin: 3px;
+    font-family: SF Pro Display;
+    border-radius: 20px;
+    border: rgba(255, 255, 255, 0);
+    padding: 20px;
+    font-family: "Jersey 15", serif;
+}
+.use{
+    margin-left: -40px;
+    margin-top: 16px;
+    position: fixed;
+    width: 18px;
+    height: auto;
+    font-family: "Jersey 15", serif;
+}
+.password input{
+    width: 300px;
+    height: 5px;
+    margin: 3px;
+    font-family: SF Pro Display;
+    border-radius: 20px;
+    border: rgba(255, 255, 255, 0);
+    padding: 20px;
+    font-family: "Jersey 15", serif;
+}
+#password1{
+    margin-left: -41px;
+    margin-top: 15px;
+    position: fixed;
+    width: 20px;
+    height: auto;
+    font-family: "Jersey 15", serif;
+}
+.box{
+    font-family: SF Pro Display;
+    color: rgb(40, 40, 40);
+    font-family: "Jersey 15", serif;
+}
+.box a{
+    font-family: SF Pro Display;
+    color: rgb(40, 40, 40);
+    text-align: left;
+    font-size: 14px;
+    font-family: "Jersey 15", serif;
+}
+.box input{
+    border: rgb(255, 255, 255);
+    width: 30px;
+    height: 20px;
+    border-radius: 3px;
+    font-family: "Jersey 15", serif;
+    
+}
+.btn button{
+    width: 75px;
+    align-items: center;
+    height: 30px;
+    font-family: SF Pro Display;
+    border-radius: 20px;
+    border: white;
+    font-family: "Jersey 15", serif;
+}
+.btn button a{
+    text-decoration: none;
+    color: black;
+}
+.btn button:hover{
+    background-color: rgb(90, 0, 112);
+    color: white;
+}
+.btn button a:hover{
+    color: white;
+}
+.p1{
+    margin-top: 35px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 360px) {
+    nav{
+        background-color: rgba(213, 213, 213, 0.344);
+        width: 80%;
+        height: 610px;
+        border-radius: 30px;
+    }
+    .img2{
+        width: 250px;
+        margin-left: 4%;
+    }
+    section{
+        margin-top: -5%;
+        margin-left: -36%;
+    }
+    p{
+        font-family: "Jersey 15", serif;
+        font-weight: bold;
+        color: rgb(40, 40, 40);
+        font-size: 12px;
+    }
+    div{
+        margin: 7px;
+        align-items: center;
+    }
+    .user input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .password input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .box{
+        font-family: SF Pro Display;
+        color: rgb(40, 40, 40);
+    }
+}
+@media screen and (max-width: 375.4px) {
+    nav{
+        background-color: rgba(213, 213, 213, 0.344);
+        width: 80%;
+        height: 610px;
+        border-radius: 30px;
+    }
+    .img2{
+        width: 250px;
+        margin-left: 4%;
+    }
+    section{
+        margin-top: -5%;
+        margin-left: -36%;
+    }
+    p{
+        font-family: SF Pro Display;
+        font-weight: bold;
+        color: rgb(40, 40, 40);
+        font-size: 16px;
+    }
+    div{
+        margin: 7px;
+        align-items: center;
+    }
+    .user input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .password input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .box{
+        font-family: SF Pro Display;
+        color: rgb(40, 40, 40);
+    }
+}
+@media screen and (max-width: 390.4px) {
+    nav{
+        background-color: rgba(213, 213, 213, 0.344);
+        width: 80%;
+        height: 610px;
+        border-radius: 30px;
+    }
+    .img2{
+        width: 250px;
+        margin-left: 4%;
+    }
+    section{
+        margin-top: -5%;
+        margin-left: -36%;
+    }
+    p{
+        font-family: SF Pro Display;
+        font-weight: bold;
+        color: rgb(40, 40, 40);
+        font-size: 16px;
+    }
+    div{
+        margin: 7px;
+        align-items: center;
+    }
+    .user input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .password input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .box{
+        font-family: SF Pro Display;
+        color: rgb(40, 40, 40);
+    }
+}
+@media screen and (max-width: 414.4px) {
+    nav{
+        background-color: rgba(213, 213, 213, 0.344);
+        width: 80%;
+        height: 610px;
+        border-radius: 30px;
+    }
+    .img2{
+        width: 250px;
+        margin-left: 4%;
+    }
+    section{
+        margin-top: -5%;
+        margin-left: -36%;
+    }
+    p{
+        font-family: SF Pro Display;
+        font-weight: bold;
+        color: rgb(40, 40, 40);
+        font-size: 16px;
+    }
+    div{
+        margin: 7px;
+        align-items: center;
+    }
+    .user input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .password input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .box{
+        font-family: SF Pro Display;
+        color: rgb(40, 40, 40);
+    }
+}
+@media screen and (max-width: 428.4px) {
+    nav{
+        background-color: rgba(213, 213, 213, 0.344);
+        width: 80%;
+        height: 610px;
+        border-radius: 30px;
+    }
+    .img2{
+        width: 250px;
+        margin-left: 4%;
+    }
+    section{
+        margin-top: -5%;
+        margin-left: -36%;
+    }
+    p{
+        font-family: SF Pro Display;
+        font-weight: bold;
+        color: rgb(40, 40, 40);
+        font-size: 16px;
+    }
+    div{
+        margin: 7px;
+        align-items: center;
+    }
+    .user input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .password input{
+        width: 265px;
+        height: 5px;
+        margin: 3px;
+        font-family: SF Pro Display;
+        border-radius: 20px;
+        border: rgba(255, 255, 255, 0);
+        padding: 20px;
+    }
+    .box{
+        font-family: SF Pro Display;
+        color: rgb(40, 40, 40);
+    }
+}

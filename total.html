@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <title>All Books</title>
+</head>
+<body>
+    <nav>
+        <h1 class="h1">BOOK LIBRARY</h1>
+        <div class="body">
+            <div class="count-book">
+                <div class="bar">
+                    <a href="total.html">VIEW ALL BOOK</a>
+                    <a href="book.html">ADD NEW BOOK</a>
+                </div>
+                <div class="container">
+                    <h2>WELCOME TO LIBRARY</h2>
+                    <div class="total-count1">
+                        <h3>ALL BOOK</h3>
+                    <div class="total-count2" id="totalBooks">0</div>
+                    <button class="btn" onclick="refreshCount()">Refresh Count</button>
+                    <div class="footer">Powered by GROUP5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        function readAll() {
+            const storedBooks = localStorage.getItem('books');
+            let books = [];
+
+            if (storedBooks) {
+                books = JSON.parse(storedBooks);
+            }
+
+            // total count
+            document.getElementById('totalBooks').textContent = books.length;
+        }
+
+        function refreshCount() {
+            readAll();
+        }
+
+
+        window.onload = function() {
+            readAll();
+        };
+    </script>
+
+</body>
+</html>
+
